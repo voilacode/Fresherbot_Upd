@@ -28,17 +28,17 @@
 
 <body class="dark:bg-black">
      <!-- Nav -->
-    <header class="header top-0 left-0 z-40 flex w-full items-center bg-transparent absolute">
+    <header class="absolute top-0 left-0 z-40 flex items-center w-full bg-transparent header">
         <div class="container">
-            <div class="relative -mx-4 flex items-center justify-between">
-                <div class="w-60 max-w-full px-4 xl:mr-12">
-                    <a class="header-logo block w-full py-8 " href="#">
+            <div class="relative flex items-center justify-between -mx-4">
+                <div class="max-w-full px-4 w-60 xl:mr-12">
+                    <a class="block w-full py-8 header-logo " href="#">
                        
                             <img class="" src="/assets/logo_fresherbot.png" alt="">
                        
                     </a>
                 </div>
-                <div class="flex w-full items-center justify-between px-4">
+                <div class="flex items-center justify-between w-full px-4">
                     <div>
                         <button id="navbarToggler" aria-label="Mobile Menu"
                             class="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
@@ -52,22 +52,22 @@
                         <nav id="navbarCollapse"
                             class="navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 invisible top-[120%] opacity-0">
                             <ul class="block lg:flex lg:space-x-6">
-                                <li class="group relative">
+                                <li class="relative group">
                                     <a class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                                         href="#">Home</a>
                                 </li>
-                                <li class="group relative">
+                                <li class="relative group">
                                     <a class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                                         href="#">About</a>
                                 </li>
-                                <li class="group relative"><a
+                                <li class="relative group"><a
                                         class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                                         href="#">For Candidate</a></li>
-                                <li class="group relative"><a
+                                <li class="relative group"><a
                                         class="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                                         href="#">For Employee</a></li>
-                                <li class="group relative"><a
-                                        class="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0">List
+                                <li class="relative group"><a
+                                        class="flex items-center justify-between py-2 text-base cursor-pointer text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0">List
                                         of Colleges<span class="pl-3"><svg width="15" height="14" viewBox="0 0 15 14">
                                                 <path
                                                     d="M7.81602 9.97495C7.68477 9.97495 7.57539 9.9312 7.46602 9.8437L2.43477 4.89995C2.23789 4.70308 2.23789 4.39683 2.43477 4.19995C2.63164 4.00308 2.93789 4.00308 3.13477 4.19995L7.81602 8.77183L12.4973 4.1562C12.6941 3.95933 13.0004 3.95933 13.1973 4.1562C13.3941 4.35308 13.3941 4.65933 13.1973 4.8562L8.16601 9.79995C8.05664 9.90933 7.94727 9.97495 7.81602 9.97495Z"
@@ -97,19 +97,19 @@
                         </nav>
                     </div>
                     <div class="flex items-center justify-end pr-16 lg:pr-0"><a
-                            class="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                            class="hidden py-3 text-base font-bold px-7 text-dark hover:opacity-70 dark:text-white md:block"
                             href="#">Sign In</a><a
-                            class="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
+                            class="hidden px-8 py-3 text-base font-bold text-white transition duration-300 rounded-md ease-in-up bg-primary hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                             href="#">Sign Up</a>
                         <div><button
-                                class="bg-gray-2 dark:bg-dark-bg flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14"
+                                class="flex items-center justify-center text-black rounded-full cursor-pointer bg-gray-2 dark:bg-dark-bg h-9 w-9 dark:text-white md:h-14 md:w-14"
                                 fdprocessedid="nbvwt"><svg viewBox="0 0 23 23"
-                                    class="h-5 w-5 stroke-current dark:hidden md:h-6 md:w-6" fill="none">
+                                    class="w-5 h-5 stroke-current dark:hidden md:h-6 md:w-6" fill="none">
                                     <path
                                         d="M9.55078 1.5C5.80078 1.5 1.30078 5.25 1.30078 11.25C1.30078 17.25 5.80078 21.75 11.8008 21.75C17.8008 21.75 21.5508 17.25 21.5508 13.5C13.3008 18.75 4.30078 9.75 9.55078 1.5Z"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg><svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                    class="hidden h-5 w-5 dark:block md:h-6 md:w-6">
+                                    class="hidden w-5 h-5 dark:block md:h-6 md:w-6">
                                     <mask id="path-1-inside-1_977:1934" fill="white">
                                         <path
                                             d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z">
@@ -130,7 +130,7 @@
     <section id="home"
         class="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]">
         <div class="container">
-            <div class="-mx-4 flex flex-wrap">
+            <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4">
                     <div class="wow fadeInUp mx-auto max-w-[800px] text-center" data-wow-delay=".2s">
                         <h1
@@ -141,11 +141,11 @@
                             Unlocking Opportunities for Fresh Graduates.Empowering fresh graduates by unlocking opportunities is a key focus in today's dynamic job market. Providing avenues for recent graduates to showcase their skills and talents not only benefits them individually but also contributes to the overall growth of industries. </p>
                         <div
                             class="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                            <a class="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                            <a class="px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out rounded-md bg-primary hover:bg-primary/80"
                                 href="#">Job Openings</a><a
-                                class="rounded-md bg-gray-600 py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out  hover:bg-primary"
+                                class="px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out bg-gray-600 rounded-md hover:bg-primary"
                                 href="#">Hackathon</a>
-                            <a class="rounded-md bg-gray-600 py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out  hover:bg-primary"
+                            <a class="px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out bg-gray-600 rounded-md hover:bg-primary"
                                 href="#">InterviewPrep</a>
                         </div>
                     </div>
@@ -256,9 +256,9 @@
     </section>
 
     <!-- Job Openings -->
-    <section id="features" class="bg-blue-900 bg-opacity-25 py-16  md:py-20 lg:py-28">
+    <section id="features" class="py-16 bg-blue-900 bg-opacity-25 md:py-20 lg:py-28">
         <div class="container">
-            <div class="wow fadeInUp w-full mx-auto text-center" data-wow-delay=".1s"
+            <div class="w-full mx-auto text-center wow fadeInUp" data-wow-delay=".1s"
                 style="max-width:570px;margin-bottom:100px">
                 <h2
                     class="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
@@ -877,7 +877,7 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
     <!-- We are ready to help -->
     <!-- <section class="relative z-10 py-16 md:py-20 lg:py-28">
         <div class="container">
-            <div class="wow fadeInUp w-full mx-auto text-center" data-wow-delay=".1s"
+            <div class="w-full mx-auto text-center wow fadeInUp" data-wow-delay=".1s"
                 style="max-width:570px;margin-bottom:80px">
                 <h2
                     class="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
@@ -885,7 +885,7 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
                 <p class="text-base !leading-relaxed text-body-color md:text-lg">There are many variations of passages
                     of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
             </div>
-            <div class="-mx-4 flex flex-wrap">
+            <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4">
                     <div class="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md" data-wow-delay=".15s">
                         <div class="relative aspect-[77/40] items-center justify-center"><img alt="video image"
@@ -894,7 +894,7 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
                                 src="./Free Next.js Template for Startup and SaaS_files/video.jpg" decoding="async"
                                 data-nimg="fill" loading="lazy"
                                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent">
-                            <div class="absolute top-0 right-0 flex h-full w-full items-center justify-center"><button
+                            <div class="absolute top-0 right-0 flex items-center justify-center w-full h-full"><button
                                     class="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
                                     fdprocessedid="zatzvq"><svg width="16" height="18" viewBox="0 0 16 18"
                                         class="fill-current">
@@ -914,21 +914,21 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
     <!-- Companies -->
     <section class="pt-16">
         <div class="container">
-            <div class="-mx-4 flex flex-wrap">
+            <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4">
                     <div class="wow fadeInUp flex flex-wrap items-center justify-center rounded-md bg-dark py-8 px-8 dark:bg-primary dark:bg-opacity-5 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px]"
                         data-wow-delay=".1s ">
                         <div
                             class="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
                             <a href="#" target="_blank" rel="nofollow noreferrer"
-                                class="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
+                                class="relative w-full h-10 transition opacity-70 grayscale hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
                                 <div style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;">
                                     <?xml version="1.0" standalone="no"?>
                                     <!DOCTYPE svg
                                         PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="43.000000pt"
                                         height="90.000000pt" viewBox="0 0 103.000000 94.000000"
-                                        preserveAspectRatio="xMidYMid meet" class="fill-current w-24"> 
+                                        preserveAspectRatio="xMidYMid meet" class="w-24 fill-current"> 
 
                                         <g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)"
                                             fill="#000000" stroke="none" class="fill-current">
@@ -990,7 +990,7 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
                         <div
                             class="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
                             <a href="https://tailgrids.com/" target="_blank" rel="nofollow noreferrer"
-                                class="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
+                                class="relative w-full h-10 transition opacity-70 grayscale hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
                                 <div style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;">
                                     <?xml version="1.0" standalone="no"?>
                                     <!DOCTYPE svg
@@ -1083,7 +1083,7 @@ c12 -39 34 -68 58 -72 58 -12 95 -12 135 -1 36 11 45 11 57 -2 16 -15 16 -18
                         <div
                             class="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
                             <a href="#" target="_blank" rel="nofollow noreferrer"
-                                class="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
+                                class="relative w-full h-10 transition opacity-70 grayscale hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
                                 <div style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;">
                                     <?xml version="1.0" standalone="no"?>
                                     <!DOCTYPE svg
@@ -1139,7 +1139,7 @@ l-225 465 -466 2 -465 3 342 695 c188 382 346 696 351 697 5 2 357 -696 783
                         <div
                             class="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
                             <a href="#" target="_blank" rel="nofollow noreferrer"
-                                class="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
+                                class="relative w-full h-10 transition opacity-70 grayscale hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
                                 <div style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;">
                                     <?xml version="1.0" standalone="no"?>
                                     <!DOCTYPE svg
@@ -1272,7 +1272,7 @@ c4 842 15 1321 32 1347 3 6 12 59 20 118 19 144 33 229 50 283 7 25 21 74 31
                         <div
                             class="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
                             <a href="#" target="_blank" rel="nofollow noreferrer"
-                                class="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
+                                class="relative w-full h-10 transition opacity-70 grayscale hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
                                 <div style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;">
                                     <?xml version="1.0" standalone="no"?>
                                     <!DOCTYPE svg
@@ -1431,7 +1431,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
     <!-- Bug free -->
     <section class="py-16 md:py-20 lg:py-28">
         <div class="container">
-            <div class="-mx-4 flex flex-wrap items-center">
+            <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full px-4 lg:w-1/2">
                     <div class="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
                         data-wow-delay=".15s"><img alt="about image"
@@ -1450,7 +1450,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                                 class="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                                 Discover exciting career opportunities with leading companies.
                             </p>
-                            <ul class="list-disc pl-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                            <ul class="pl-4 text-base font-medium leading-relaxed list-disc text-body-color sm:text-lg sm:leading-relaxed">
                                 <li>Software Engineer at Tech Co.</li>
                                 <li>Data Scientist at Data Insights</li>
                                 <li>UX Designer at Creative Minds</li>
@@ -1475,7 +1475,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                             <p
                                 class="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                                 Prepare for your dream job with our interview preparation resources.</p>
-                                <ul class="list-disc pl-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                                <ul class="pl-4 text-base font-medium leading-relaxed list-disc text-body-color sm:text-lg sm:leading-relaxed">
                                     <li>Mock Interview Sessions</li>
                                     <li>Resume Building Workshops</li>
                                     <li>Technical Interview Tips</li>
@@ -1490,7 +1490,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
     <!-- Testimonials -->
     <section class="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
         <div class="container">
-            <div class="wow fadeInUp w-full mx-auto text-center" data-wow-delay=".1s"
+            <div class="w-full mx-auto text-center wow fadeInUp" data-wow-delay=".1s"
                 style="max-width:570px;margin-bottom:100px">
                 <h2
                     class="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
@@ -1502,7 +1502,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                 <div class="w-full">
                     <div class="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8"
                         data-wow-delay=".1s">
-                        <div class="mb-5 flex items-center space-x-1">
+                        <div class="flex items-center mb-5 space-x-1">
                             <span class="text-yellow">
                                 <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
                                     <path
@@ -1540,7 +1540,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                             </span>
                         </div>
                         <p
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+                            class="pb-8 mb-8 text-base leading-relaxed border-b border-body-color border-opacity-10 text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
                             “<!-- -->The interview preparation resources offered by Hiring Tool exceeded my
                             expectations. The resume building workshops were incredibly insightful, and the mock
                             interviews helped me build confidence. I can confidently say that the interview prep
@@ -1562,7 +1562,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                 <div class="w-full">
                     <div class="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8"
                         data-wow-delay=".1s">
-                        <div class="mb-5 flex items-center space-x-1"><span class="text-yellow"><svg width="18"
+                        <div class="flex items-center mb-5 space-x-1"><span class="text-yellow"><svg width="18"
                                     height="16" viewBox="0 0 18 16" class="fill-current">
                                     <path
                                         d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z">
@@ -1589,7 +1589,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                                     </path>
                                 </svg></span></div>
                         <p
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+                            class="pb-8 mb-8 text-base leading-relaxed border-b border-body-color border-opacity-10 text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
                             “<!-- -->The hackathon organized by Hiring Tool was a fantastic experience. It not only
                             allowed me to showcase my creativity and problem-solving abilities but also provided an
                             opportunity to connect with like-minded professionals. I’m grateful for this platform, as it
@@ -1613,7 +1613,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                 <div class="w-full">
                     <div class="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8"
                         data-wow-delay=".1s">
-                        <div class="mb-5 flex items-center space-x-1"><span class="text-yellow"><svg width="18"
+                        <div class="flex items-center mb-5 space-x-1"><span class="text-yellow"><svg width="18"
                                     height="16" viewBox="0 0 18 16" class="fill-current">
                                     <path
                                         d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z">
@@ -1640,7 +1640,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                                     </path>
                                 </svg></span></div>
                         <p
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+                            class="pb-8 mb-8 text-base leading-relaxed border-b border-body-color border-opacity-10 text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
                             “<!-- -->Discovering job opportunities through Hiring Tool was a turning point in my career
                             journey. The job openings section is well-curated, and the application process was smooth.
                             I’m now thriving in my role as a data scientist, all thanks to the excellent resources and
@@ -1726,7 +1726,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
     <!-- InterviewPrep -->
     <section id="pricing" class="relative z-10 py-16 md:py-20 lg:py-28">
         <div class="container">
-            <div class="wow fadeInUp w-full mx-auto text-center" data-wow-delay=".1s"
+            <div class="w-full mx-auto text-center wow fadeInUp" data-wow-delay=".1s"
                 style="max-width:665px;margin-bottom:100px">
                 <h2
                     class="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
@@ -1734,18 +1734,18 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                 <p class="text-base !leading-relaxed text-body-color md:text-lg">Prepare for your dream job with our interview preparation resources.</p>
             </div>
             <!-- <div class="w-full">
-                <div class="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16" data-wow-delay=".1s"><span
-                        class="pointer-events-none text-primary mr-4 cursor-pointer text-base font-semibold">Monthly</span>
-                    <div class="flex cursor-pointer items-center">
+                <div class="flex justify-center mb-8 wow fadeInUp md:mb-12 lg:mb-16" data-wow-delay=".1s"><span
+                        class="mr-4 text-base font-semibold cursor-pointer pointer-events-none text-primary">Monthly</span>
+                    <div class="flex items-center cursor-pointer">
                         <div class="relative">
                             <div class="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
                             <div
                                 class=" shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition">
-                                <span class="active h-4 w-4 rounded-full bg-white"></span>
+                                <span class="w-4 h-4 bg-white rounded-full active"></span>
                             </div>
                         </div>
                     </div><span
-                        class="text-dark dark:text-white ml-4 cursor-pointer text-base font-semibold">Yearly</span>
+                        class="ml-4 text-base font-semibold cursor-pointer text-dark dark:text-white">Yearly</span>
                 </div>
             </div> -->
             <div class="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
@@ -1755,38 +1755,38 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         
                         
                         <div
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+                            class="pb-8 mb-8 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
                             <div
-                                class="flex w-full items-center justify-center rounded-md  p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out  "
+                                class="flex items-center justify-center w-full p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out rounded-md "
                                 fdprocessedid="ocsee">Study Material</div>
                         </div>
                         <div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">C Interview Questions</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">C Interview Questions</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Java Interview Questions</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Java Interview Questions</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Cognitive Ability Material</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Cognitive Ability Material</p>
                             </div>
                         </div>
                         <div class="absolute bottom-0 right-0 z-[-1]"><svg width="179" height="158"
@@ -1819,38 +1819,38 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         
                         
                         <div
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+                            class="pb-8 mb-8 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
                             <div
-                                class="flex w-full items-center justify-center rounded-md  p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out  "
+                                class="flex items-center justify-center w-full p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out rounded-md "
                                 fdprocessedid="ocsee">Video Lessons</div>
                         </div>
                         <div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Quantitative Aptitude Videos</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Quantitative Aptitude Videos</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Verbal Ability</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Verbal Ability</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Problem Solving</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Problem Solving</p>
                             </div>
                         </div>
                         <div class="absolute bottom-0 right-0 z-[-1]"><svg width="179" height="158"
@@ -1883,38 +1883,38 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         
                         
                         <div
-                            class="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+                            class="pb-8 mb-8 border-b border-body-color border-opacity-10 dark:border-white dark:border-opacity-10">
                             <div
-                                class="flex w-full items-center justify-center rounded-md  p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out  "
+                                class="flex items-center justify-center w-full p-1 text-2xl font-semibold text-white transition duration-300 ease-in-out rounded-md "
                                 fdprocessedid="ocsee">Practice Tests</div>
                         </div>
                         <div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Competitive Programming</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Competitive Programming</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Pseudocodes</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Pseudocodes</p>
                             </div>
-                            <div class="mb-3 flex items-center"><span
+                            <div class="flex items-center mb-3"><span
                                     class="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary"><svg
                                         width="8" height="6" viewBox="0 0 8 6" class="fill-current">
                                         <path
                                             d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z">
                                         </path>
                                     </svg></span>
-                                <p class="m-0 text-base font-medium text-body-color hover:text-white transform ease-in-out duration-100 hover:translate-x-2">Java Test</p>
+                                <p class="m-0 text-base font-medium duration-100 ease-in-out transform text-body-color hover:text-white hover:translate-x-2">Java Test</p>
                             </div>
                         </div>
                         <div class="absolute bottom-0 right-0 z-[-1]"><svg width="179" height="158"
@@ -1968,9 +1968,9 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
     
 
     <!-- contact form -->
-    <section id="contact" class="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" class="py-16 overflow-hidden md:py-20 lg:py-28">
         <div class="container">
-            <div class="-mx-4 flex flex-wrap">
+            <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
                     <div class="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
                         data-wow-delay=".15s ">
@@ -1980,31 +1980,31 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         <p class="mb-12 text-base font-medium text-body-color">Our support team will get back to you
                             ASAP via email.</p>
                         <form>
-                            <div class="-mx-4 flex flex-wrap">
+                            <div class="flex flex-wrap -mx-4">
                                 <div class="w-full px-4 md:w-1/2">
                                     <div class="mb-8"><label for="name"
-                                            class="mb-3 block text-sm font-medium text-dark dark:text-white">Your
+                                            class="block mb-3 text-sm font-medium text-dark dark:text-white">Your
                                             Name</label><input type="text" placeholder="Enter your name"
                                             class="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                                             fdprocessedid="jbpjc"></div>
                                 </div>
                                 <div class="w-full px-4 md:w-1/2">
                                     <div class="mb-8"><label for="email"
-                                            class="mb-3 block text-sm font-medium text-dark dark:text-white">Your
+                                            class="block mb-3 text-sm font-medium text-dark dark:text-white">Your
                                             Email</label><input type="email" placeholder="Enter your email"
                                             class="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                                             fdprocessedid="usruvf"></div>
                                 </div>
                                 <div class="w-full px-4">
                                     <div class="mb-8"><label for="message"
-                                            class="mb-3 block text-sm font-medium text-dark dark:text-white">Your
+                                            class="block mb-3 text-sm font-medium text-dark dark:text-white">Your
                                             Message</label><textarea name="message" rows="5"
                                             placeholder="Enter your Message"
                                             class="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"></textarea>
                                     </div>
                                 </div>
                                 <div class="w-full px-4"><button
-                                        class="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+                                        class="py-4 text-base font-medium text-white transition duration-300 ease-in-out rounded-md bg-primary px-9 hover:bg-opacity-80 hover:shadow-signUp"
                                         fdprocessedid="22vc7">Submit Ticket</button></div>
                             </div>
                         </form>
@@ -2016,7 +2016,7 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         <h3 class="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">Subscribe to
                             receive future updates</h3>
                         <p
-                            class="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
+                            class="text-base font-medium leading-relaxed border-b border-opacity-25 mb-11 border-body-color pb-11 text-body-color dark:border-white dark:border-opacity-25">
                             Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.
                         </p>
                         <form><input type="text" name="name" placeholder="Enter your name"
@@ -2024,9 +2024,9 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                                 fdprocessedid="ywwcr"><input type="email" name="email" placeholder="Enter your email"
                                 class="mb-4 w-full rounded-md border border-body-color border-opacity-10 py-3 px-6 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
                                 fdprocessedid="v9tic"><input type="submit"
-                                class="duration-80 mb-4 w-full cursor-pointer rounded-md border border-transparent bg-primary py-3 px-6 text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none"
+                                class="w-full px-6 py-3 mb-4 text-base font-medium text-center text-white transition ease-in-out border border-transparent rounded-md outline-none cursor-pointer duration-80 bg-primary hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none"
                                 value="Subscribe" fdprocessedid="8n48o1">
-                            <p class="text-center text-base font-medium leading-relaxed text-body-color">No spam
+                            <p class="text-base font-medium leading-relaxed text-center text-body-color">No spam
                                 guaranteed, So please don’t send any spam mail.</p>
                         </form>
                         <div class="absolute top-0 left-0 z-[-1]"><svg width="370" height="596" viewBox="0 0 370 596"
@@ -2104,14 +2104,14 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
     </section>
 
     <!-- footer -->
-    <footer class="wow fadeInUp relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24" data-wow-delay=".1s">
+    <footer class="relative z-10 pt-16 wow fadeInUp bg-primary bg-opacity-5 md:pt-20 lg:pt-24" data-wow-delay=".1s">
         <div class="container">
-            <div class="-mx-4 flex flex-wrap">
+            <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-                    <div class="mb-12 max-w-[360px] lg:mb-16"><a class="mb-8 inline-block"
+                    <div class="mb-12 max-w-[360px] lg:mb-16"><a class="inline-block mb-8"
                             href="#"><img class="" src="/assets/logo_fresherbot.png" alt="">
                         </a>
-                        <p class="mb-9 text-base font-medium leading-relaxed text-body-color">Lorem ipsum dolor sit
+                        <p class="text-base font-medium leading-relaxed mb-9 text-body-color">Lorem ipsum dolor sit
                             amet, consectetur adipiscing elit. Integer lobortis.</p>
                         <div class="flex items-center"><a href="https://startup.nextjstemplates.com/"
                                 aria-label="social-link" class="mr-6 text-[#CED3F6] hover:text-primary"><svg width="9"
@@ -2145,19 +2145,19 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         <h2 class="mb-10 text-xl font-bold text-black dark:text-white">Company</h2>
                         <ul>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->About<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Career<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->News<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Blog<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                 <!-- -->Contact Us<!-- --> </a></li>
                         </ul>
                     </div>
@@ -2167,16 +2167,16 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         <h2 class="mb-10 text-xl font-bold text-black dark:text-white">Products</h2>
                         <ul>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Hiring Assessments</a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Job Posting<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Campus Hiring<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                 <!-- -->Hackathon Tool<!-- --> </a></li>
                         </ul>
                     </div>
@@ -2186,19 +2186,19 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                         <h2 class="mb-10 text-xl font-bold text-black dark:text-white">ASSESSMENTS</h2>
                         <ul>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Aptitude Test<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Technical Test<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                    class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                    class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                     <!-- -->Coding Test<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                 <!-- -->English Test<!-- --> </a></li>
                             <li><a href="https://startup.nextjstemplates.com/"
-                                class="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">
+                                class="inline-block mb-4 text-base font-medium text-body-color hover:text-primary">
                                 <!-- -->Psychometric Test<!-- --> </a></li>
                         </ul>
                     </div>
@@ -2206,9 +2206,9 @@ m232 -346 c247 -53 381 -310 288 -554 -28 -71 -119 -169 -192 -204 -194 -93
                 
             </div>
         </div>
-        <div class="bg-primary/10 py-8">
+        <div class="py-8 bg-primary/10">
             <div class="container">
-                <p class="text-center text-base text-body-color dark:text-white"><a
+                <p class="text-base text-center text-body-color dark:text-white"><a
                         href="#" rel="nofollow noopener">© 2023 Fresherbot. All Rights Reserved.</a></p>
             </div>
         </div>
